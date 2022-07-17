@@ -1,0 +1,60 @@
+
+
+
+.connectDiv {
+    width: 30em;
+    height: 20em;
+
+    background: var(--page-color1);
+
+
+
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+}
+
+.connectInput {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.connectDiv h2{
+    text-align: center;
+    background: var(--page-color3);
+    color: var(--text-color-d);
+    margin: 0;
+
+    padding: 0.5em;
+}
+
+.connectDiv input {
+    width: 80%;
+    height: 2em;
+    border: none;
+    border-radius: 0.25em;
+    padding-left: 1em;
+    margin: 1em 1em;
+}
+.connectDiv button {
+    width: 80%;
+    height: 2em;
+    border: none;
+    border-radius: 0.25em;
+    padding-left: 1em;
+    margin: 0.25em 1em;
+
+    background: var(--page-color3);
+}
+
+.connectDiv button:hover {
+    background: var(--page-color4);
+}

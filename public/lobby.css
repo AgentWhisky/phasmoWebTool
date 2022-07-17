@@ -1,0 +1,177 @@
+
+.lobbyDiv {
+    width: 90%;
+    height: 80%;
+
+    background: var(--page-color1);
+
+    padding: 2em 2em;
+    border-radius: 2em;
+
+    margin: 2em auto;
+
+}
+
+.lobbyDiv button:hover {
+    opacity: 80%;
+}
+
+.lobbyDiv button:disabled {
+    background: var(--page-color4);
+}
+
+.lobbyDiv .highLight {
+    background: var(--page-color5);
+}
+
+.lobbyDiv h2 {
+    text-align: center;
+    margin: 0;
+
+    padding: 0.5em;
+}
+
+.lobbyDiv input {
+    width: 50%;
+    height: 2em;
+    border: none;
+    border-radius: 0.25em;
+    padding-left: 1em;
+    margin: 1em 1em;
+}
+.lobbyDiv select {
+    width: 36em;
+    height: 2em;
+    border: none;
+    border-radius: 0.25em;
+    padding-left: 1em;
+    margin: 1em 1em;
+}
+
+
+.infoDiv {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-width: 30em;
+    margin: auto;
+    padding: 0.25em 0.25em;
+    white-space: nowrap;
+}
+
+/* Ghost Name Div */
+.infoDiv .ghostNameDiv {
+    flex: 1 1 auto;
+    margin: auto;
+}
+.ghostNameDiv input {
+    width: 60%;
+}
+
+/* Ghost Objectives Div */
+.objDiv {
+    padding: 0.5em 1em;
+    flex: 1 1 auto;
+
+}
+
+.objDiv button {
+    width: 12em;
+    height: 2em;
+    border: none;
+    border-radius: 0.25em;
+    margin: 0.25em 1em;
+
+    background: var(--page-color3);
+}
+
+.settings button {
+    width: 12em;
+    height: 2em;
+    border: none;
+    border-radius: 0.25em;
+    margin: 0.25em 1em;
+
+    background: var(--page-color3);
+}
+
+
+
+.buttonDiv button {
+    background: var(--page-color3);
+    border-radius: 1em;
+    flex: 1;
+    white-space: nowrap;
+    width: 50%;
+    height: 8em;
+    margin: auto;
+
+    font-size: 1em;
+    font-weight: bold;
+
+}
+
+.buttonDiv {
+    display: flex;
+}
+
+/* Possible Ghosts */
+.ghostDiv {
+    text-align: center;
+    height: 80%;
+}
+
+.possibleGhosts {
+    display: inline-block;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.ghostNormalDiv {
+    margin: 0.5em 1em;
+}
+
+.ghostNormalDiv label {
+    display: inline-block;
+    margin: 0.1em;
+}
+.ghostNormalDiv div {
+    display: inline;
+}
+
+
+
+
+.possibleGhosts a:link {
+    display: inline-block;
+    width: 8em;
+    height: 1em;
+    background: var(--page-color3);
+    color: var(--text-color-d);
+    border-radius: 0.15em;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.25em 0.25em;
+    white-space: nowrap;
+    margin-right: 1em;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.possibleGhosts a:hover {
+    opacity: 80%;
+}
+
+.possibleGhosts a:visited {
+    color: var(--text-color-d);
+}
+
+
+
+.possibleGhosts label {
+
+}
+
+
+
+
