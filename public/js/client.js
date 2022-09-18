@@ -394,6 +394,7 @@ class Client extends React.Component {
                 <br/>
                 <button id={connectButton} type="button" onClick={this.onConnect}>Connect to Lobby</button>
                 <button id={createButton} type="button" onClick={this.onConnect}>Create Lobby</button>
+                <h4>Phasmophobia v0.6.2.0</h4>
             </div>
         </div>);
     }
