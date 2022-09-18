@@ -32,7 +32,6 @@ body {
     overflow: auto;
 }
 .navbar a:link {
-    color: var(--text-color-d);
     float: left;
     padding: 0.7em;
     text-decoration: none;
