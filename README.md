@@ -9,6 +9,6 @@
 * Lobbies close when empty
 
 
-###OFFLINE DUE TO HEROKU SHUTDOWN
+OFFLINE DUE TO HEROKU SHUTDOWN
 
 
